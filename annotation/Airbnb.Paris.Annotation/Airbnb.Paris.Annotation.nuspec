@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+    <id>Airbnb.Paris.Annotation</id>
+    <version>1.4.0</version>
+    <title>Airbnb.Paris.Annotation</title>
+    <authors>Bandyer</authors>
+    <owners>Bandyer</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>bandyer,android,airbnb,paris-annotation,xamarin</tags>
+    <license type="expression">Apache-2.0</license>
+    <copyright>Copyright © Bandyer</copyright>
+    <description>Airbnb's paris-annotation bindings for Xamarin</description>
+    <summary>Airbnb's paris-annotation bindings for Xamarin</summary>
+    <projectUrl>https://github.com/Bandyer/AirbnbParisXamarinBindings</projectUrl>
+    <dependencies>
+        <group targetFramework="MonoAndroid">
+            <dependency id="Xamarin.Kotlin.StdLib.Jdk8" version="1.3.50.1" />
+        </group>
+    </dependencies>
+    </metadata>
+    <files>
+        <file src="./bin/Release/Airbnb.Paris.Annotation.*" target="lib/MonoAndroid" />
+    </files>
+</package>
